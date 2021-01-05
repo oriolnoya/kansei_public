@@ -9880,6 +9880,22 @@ section.has-divider {
     padding-top: 6rem;
     padding-bottom: 6rem; }
 
+.header-inner {
+  padding: 0;
+  display: block; }
+  .header-inner .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+
+@media (min-width: 768px) {
+  .header-desktop-app .row:last-of-type {
+    margin-bottom: -22.5rem;
+    z-index: 2;
+    position: relative; }
+  .header-desktop-app + section {
+    padding-top: 22.5rem; } }
+
 .icon {
   flex-shrink: 0;
   width: auto;
